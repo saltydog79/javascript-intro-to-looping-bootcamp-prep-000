@@ -25,13 +25,12 @@ function whileLoop(number) {
   // do-while loop
 
 var i = 0;
-function doWhileLoop() {
-
-  i = i + 1;
-  return i;
+function doWhileLoop(num) {
+  function incrementVariable() {
+return  i = i + 1;
 }
 
 do {
   console.log("I run once regardless.");
-} while (incrementVariable() < i)
+} while (incrementVariable() < num)
 }
