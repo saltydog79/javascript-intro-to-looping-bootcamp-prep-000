@@ -33,6 +33,4 @@ function doWhileLoop() {
 
 do {
   console.log("I run once regardless.");
-} while (incrementVariable() < i);
-if i= 0;
-console.log(i);
+} while (incrementVariable() < i)
